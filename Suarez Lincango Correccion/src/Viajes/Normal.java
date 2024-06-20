@@ -35,7 +35,5 @@ public class Normal extends Servicio{
         System.out.println("Asiento: "+asiento);
         System.out.println("Maleta: "+maleta);
         System.out.println("Maletaextra: "+maletaextra);
-        System.out.println("PrecioFinal: "+precioFinal);
-
     }
 }

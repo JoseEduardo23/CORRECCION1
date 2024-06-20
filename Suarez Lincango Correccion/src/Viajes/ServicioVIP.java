@@ -79,7 +79,10 @@ public class ServicioVIP extends Ruta {
         this.sevicio2 = sevicio2;
     }
 
+    public void recargo(double precio){
+        //metodo
+    }
     public void mostrarTicket() {
-        //metodoidk
+        //metodo
     }
 }

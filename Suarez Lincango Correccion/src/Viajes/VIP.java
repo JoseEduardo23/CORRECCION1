@@ -8,6 +8,7 @@ public class VIP extends ServicioVIP{
         super(codigoTicket, fechaTicket, nombre, cedula, edad, telefono, origen, destino, precio, asiento, maleta, maletaextra, television, internet, sevicio1, sevicio2);
         this.precioFinal = precioFinal;
     }
+
     public double getPrecioFinal() {
         return precioFinal;
     }
@@ -15,6 +16,12 @@ public class VIP extends ServicioVIP{
     public void setPrecioFinal(double precioFinal) {
         this.precioFinal = precioFinal;
     }
+    @Override
+    public void recargo(double precio){
+        //recargo
+        precio = precio * 1.30 + precioFinal;
+    }
+
     @Override
     public void mostrarTicket() {
         System.out.println("Ticket: "+codigoTicket);
@@ -33,5 +40,6 @@ public class VIP extends ServicioVIP{
         System.out.println("Internet: "+internet);
         System.out.println("Sevicio1: "+sevicio1);
         System.out.println("Sevicio2: "+sevicio2);
+        System.out.println("Precio Final: "+precioFinal);
     }
 }
