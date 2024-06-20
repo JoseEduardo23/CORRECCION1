@@ -28,3 +28,5 @@ public class Main {
         pasajeroNormal6.mostrarTicket();
     }
 }
+
+//2
