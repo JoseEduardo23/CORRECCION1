@@ -1,4 +1,4 @@
-package Correccion1;
+package Viajes;
 
 public class ServicioVIP {
 }
